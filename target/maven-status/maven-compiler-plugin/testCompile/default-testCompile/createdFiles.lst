@@ -1,0 +1,4 @@
+UI\stepDefs\Hooks.class
+UI\stepDefs\LoginPageSteps.class
+UI\stepDefs\BaseUITest.class
+UI\runner\RunnerClass.class
