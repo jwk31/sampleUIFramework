@@ -1,12 +1,16 @@
 package UI.stepDefs;
 
 import com.obtaincare.UI.dataProviders.ConfigReader;
+import com.obtaincare.UI.pageObject.LoginPage;
 import com.obtaincare.UI.utils.Driver;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.junit.Before;
+import org.junit.jupiter.api.BeforeAll;
 
 public class LoginPageSteps extends BaseUITest{
+
 
     @Given("user is on login page")
     public void user_is_on_login_page() {
@@ -27,6 +31,7 @@ public class LoginPageSteps extends BaseUITest{
     }
     @Then("user should successfully land to Home page")
     public void user_should_successfully_land_to_home_page() {
-        assertClass.assertText("Home",homePage.textOfHomePage);
+        String expectedText = "Home";
+        assertClass.assertTextWithGetText(expectedText,homePage.textOfHomePage);
     }
 }

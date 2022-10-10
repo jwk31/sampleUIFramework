@@ -1,4 +1,6 @@
 UI\stepDefs\Hooks.class
 UI\stepDefs\LoginPageSteps.class
+UI\stepDefs\AddNewUserWithGivenInfoSteps.class
+UI\stepDefs\AddNewUserWithGivenInfoSteps$USERDETAILS.class
 UI\stepDefs\BaseUITest.class
 UI\runner\RunnerClass.class

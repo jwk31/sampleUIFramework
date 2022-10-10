@@ -2,10 +2,9 @@ package com.obtaincare.UI.helperMethods;
 
 
 import com.obtaincare.UI.utils.Driver;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
@@ -14,7 +13,7 @@ import java.util.concurrent.TimeUnit;
 
 public class Helper {
 
-    private static Logger logger = LogManager.getLogger(Helper.class);
+    // private static Logger logger = LogManager.getLogger(Helper.class);
 
     public Helper waitElementToBeDisplayed(WebElement element) {
         new WebDriverWait(Driver.getDriver(), Duration.ofSeconds(10))
@@ -49,20 +48,27 @@ public class Helper {
         return this;
     }
 
-    public Helper sendKeysWithClear(WebElement element,String str){
+    public Helper sendKeysWithClear(WebElement element, String str) {
         waitElementToBeDisplayed(element);
         element.clear();
         element.sendKeys(str);
         return this;
     }
 
-    public String getAttributeByValue(WebElement element){
+    public String getAttributeByValue(WebElement element) {
         waitElementToBeDisplayed(element);
-        return   element.getAttribute("value");
+        return element.getAttribute("value");
     }
 
-    public String getText(WebElement element){
+    public String getText(WebElement element) {
         waitElementToBeDisplayed(element);
         return element.getText();
+    }
+
+    public Helper selectFromDropDown(WebElement element, String str) {
+        waitElementToBeDisplayed(element);
+        Select select = new Select(element);
+        select.selectByVisibleText(str);
+        return this;
     }
 }

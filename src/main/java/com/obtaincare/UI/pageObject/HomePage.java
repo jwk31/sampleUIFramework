@@ -12,5 +12,21 @@ public class HomePage extends BasePage{
        return helper.getText(textOfHomePage);
     }
 
+    @FindBy(xpath = "(//a[@href='https://yrysbek.talentlms.com/user/index/gridPref:reset'])[2]")
+    public WebElement usersButton;
+
+    public HomePage clickUsersButton(){
+        helper.click(usersButton);
+        return this;
+    }
+
+    @FindBy(xpath = "(//a[@href='https://yrysbek.talentlms.com/user/create'])[2]")
+    public WebElement addUserButton;
+
+    public HomePage clickAddUserButton(){
+        helper.click(addUserButton);
+        return this;
+    }
+
 
 }

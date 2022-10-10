@@ -1,4 +1,8 @@
+C:\Users\ADMIN\sampleUIFramework\src\main\java\com\obtaincare\UI\pojo\LoginPojo.java
+C:\Users\ADMIN\sampleUIFramework\src\main\java\com\obtaincare\UI\pojo\UserPojo.java
+C:\Users\ADMIN\sampleUIFramework\src\main\java\com\obtaincare\UI\pageObject\AddUserPage.java
 C:\Users\ADMIN\sampleUIFramework\src\main\java\com\obtaincare\UI\utils\ChromeWebDriver.java
+C:\Users\ADMIN\sampleUIFramework\src\main\java\com\obtaincare\UI\jdbc\JdbcDriver.java
 C:\Users\ADMIN\sampleUIFramework\src\main\java\com\obtaincare\UI\helperMethods\Helper.java
 C:\Users\ADMIN\sampleUIFramework\src\main\java\com\obtaincare\UI\pageObject\LoginPage.java
 C:\Users\ADMIN\sampleUIFramework\src\main\java\com\obtaincare\UI\asserts\AssertClass.java
@@ -6,8 +10,10 @@ C:\Users\ADMIN\sampleUIFramework\src\main\java\com\obtaincare\UI\pageObject\Base
 C:\Users\ADMIN\sampleUIFramework\src\main\java\com\obtaincare\UI\mailosaur\EmailTest.java
 C:\Users\ADMIN\sampleUIFramework\src\main\java\com\obtaincare\UI\pageObject\HomePage.java
 C:\Users\ADMIN\sampleUIFramework\src\main\java\com\obtaincare\UI\dataProviders\ConfigReader.java
+C:\Users\ADMIN\sampleUIFramework\src\main\java\com\obtaincare\UI\jdbc\JdbcDemo.java
 C:\Users\ADMIN\sampleUIFramework\src\main\java\com\obtaincare\UI\utils\SauceLabsDriver.java
 C:\Users\ADMIN\sampleUIFramework\src\main\java\com\obtaincare\UI\dataProviders\MockDataGenerator.java
 C:\Users\ADMIN\sampleUIFramework\src\main\java\com\obtaincare\UI\utils\Driver.java
 C:\Users\ADMIN\sampleUIFramework\src\main\java\com\obtaincare\UI\utils\EdgeWebDriver.java
 C:\Users\ADMIN\sampleUIFramework\src\main\java\com\obtaincare\UI\utils\FireFoxWebDriver.java
+C:\Users\ADMIN\sampleUIFramework\src\main\java\com\obtaincare\UI\pageObject\UserInfoPage.java
